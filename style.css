@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.newProductData {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapper {
+    width: 360px;
+    height: 42px;
+    padding-left: 5px;
+    border-radius: 4px;
+    background-color: rgba(158, 155, 155, 0.452); 
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.addNewProductButton {
+    width: 180px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgba(187, 183, 183, 0.466);
+}
+
+.store {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.productCard {
+    width: 250px;
+    height: 340px;
+    padding: 15px;
+    border-radius: 14px;
+    background-color: rgba(136, 136, 136, 0.603);
+    color: rgba(255, 255, 255, 0.664);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productCard img {
+    width: 220px;
+    height: 200px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.productCard h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.productCard p {
+    font-size: 18px;
+}
+
+.productCard button{
+    margin-left: 180px;
+}
